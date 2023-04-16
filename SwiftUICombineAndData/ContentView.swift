@@ -23,7 +23,7 @@ struct ContentView: View {
                 
                 VisualEffectBlur(blurStyle: .systemMaterial)
                     .opacity(contentOffset < -16 ? 1 : 0)
-                    .animation(.easeIn)
+                    .animation(.easeIn, value: true)
                     .ignoresSafeArea()
                     .frame(height: 0)
             }
