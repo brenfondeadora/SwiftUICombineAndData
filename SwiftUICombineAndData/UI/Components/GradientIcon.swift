@@ -24,8 +24,11 @@ struct GradientIcon: View {
     }
 }
 
+// MARK: - Preview
+#if DEBUG
 struct GradientIcon_Previews: PreviewProvider {
     static var previews: some View {
         GradientIcon()
     }
 }
+#endif

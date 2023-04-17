@@ -13,8 +13,11 @@ struct PackagesView: View {
     }
 }
 
+// MARK: - Preview
+#if DEBUG
 struct PackagesView_Previews: PreviewProvider {
     static var previews: some View {
         PackagesView()
     }
 }
+#endif

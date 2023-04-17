@@ -13,8 +13,11 @@ struct FAQView: View {
     }
 }
 
+// MARK: - Preview
+#if DEBUG
 struct FAQView_Previews: PreviewProvider {
     static var previews: some View {
         FAQView()
     }
 }
+#endif

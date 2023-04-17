@@ -30,8 +30,11 @@ struct MenuRow: View {
     }
 }
 
+// MARK: - Preview
+#if DEBUG
 struct MenuRow_Previews: PreviewProvider {
     static var previews: some View {
         MenuRow()
     }
 }
+#endif
