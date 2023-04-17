@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		23240DEF29EDF99D00451E45 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23240DEE29EDF99D00451E45 /* Package.swift */; };
 		23240DF129EDFBD200451E45 /* PackageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23240DF029EDFBD200451E45 /* PackageRow.swift */; };
+		23240DF329EE090000451E45 /* FAQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23240DF229EE090000451E45 /* FAQ.swift */; };
 		23392E5229EB8C5700F5BDFB /* TrackableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23392E5129EB8C5700F5BDFB /* TrackableScrollView.swift */; };
 		23392E5929EB8CED00F5BDFB /* AccountBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23392E5729EB8CED00F5BDFB /* AccountBackground.swift */; };
 		23392E5A29EB8CED00F5BDFB /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23392E5829EB8CED00F5BDFB /* VisualEffectBlur.swift */; };
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		23240DEE29EDF99D00451E45 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		23240DF029EDFBD200451E45 /* PackageRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageRow.swift; sourceTree = "<group>"; };
+		23240DF229EE090000451E45 /* FAQ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQ.swift; sourceTree = "<group>"; };
 		23392E5129EB8C5700F5BDFB /* TrackableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackableScrollView.swift; sourceTree = "<group>"; };
 		23392E5729EB8CED00F5BDFB /* AccountBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountBackground.swift; sourceTree = "<group>"; };
 		23392E5829EB8CED00F5BDFB /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				23240DEE29EDF99D00451E45 /* Package.swift */,
+				23240DF229EE090000451E45 /* FAQ.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 				23CEEE3329EB958F0098F242 /* PackagesView.swift in Sources */,
 				23392E5E29EB931C00F5BDFB /* GradientIcon.swift in Sources */,
 				23240DEF29EDF99D00451E45 /* Package.swift in Sources */,
+				23240DF329EE090000451E45 /* FAQ.swift in Sources */,
 				23CAB23429EB2D70007D88DF /* SwiftUICombineAndDataApp.swift in Sources */,
 				23392E5929EB8CED00F5BDFB /* AccountBackground.swift in Sources */,
 				23392E5C29EB92C200F5BDFB /* MenuRow.swift in Sources */,
