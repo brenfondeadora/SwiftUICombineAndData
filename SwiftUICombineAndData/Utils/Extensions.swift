@@ -19,4 +19,14 @@ extension View {
                                     endPoint: .bottomTrailing))
             .mask(self)
     }
+    
+    func blurBackground() -> some View {
+        self
+            .padding(16)
+            .background(Color("Background 1"))
+            .background(VisualEffectBlur(blurStyle: .systemUltraThinMaterialDark))
+            .overlay(RoundedRectangle(cornerRadius: 20, style: .continuous)
+                        .stroke(Color(#colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)), lineWidth: 1).blendMode(.overlay))
+            .mask(RoundedRectangle(cornerRadius: 20, style: .continuous))
+    }
 }
