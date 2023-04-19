@@ -18,6 +18,7 @@
 		23392E5A29EB8CED00F5BDFB /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23392E5829EB8CED00F5BDFB /* VisualEffectBlur.swift */; };
 		23392E5C29EB92C200F5BDFB /* MenuRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23392E5B29EB92C200F5BDFB /* MenuRow.swift */; };
 		23392E5E29EB931C00F5BDFB /* GradientIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23392E5D29EB931C00F5BDFB /* GradientIcon.swift */; };
+		2380554329F053F800E17949 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2380554229F053F800E17949 /* PrimaryButton.swift */; };
 		23CAB23429EB2D70007D88DF /* SwiftUICombineAndDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CAB23329EB2D70007D88DF /* SwiftUICombineAndDataApp.swift */; };
 		23CAB23629EB2D70007D88DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CAB23529EB2D70007D88DF /* ContentView.swift */; };
 		23CAB23829EB2D74007D88DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23CAB23729EB2D74007D88DF /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 		23392E5829EB8CED00F5BDFB /* VisualEffectBlur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
 		23392E5B29EB92C200F5BDFB /* MenuRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRow.swift; sourceTree = "<group>"; };
 		23392E5D29EB931C00F5BDFB /* GradientIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientIcon.swift; sourceTree = "<group>"; };
+		2380554229F053F800E17949 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
 		23CAB23029EB2D70007D88DF /* SwiftUICombineAndData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICombineAndData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23CAB23329EB2D70007D88DF /* SwiftUICombineAndDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICombineAndDataApp.swift; sourceTree = "<group>"; };
 		23CAB23529EB2D70007D88DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,11 +73,9 @@
 		23240DEC29EDF7C600451E45 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				23392E5129EB8C5700F5BDFB /* TrackableScrollView.swift */,
-				23392E5D29EB931C00F5BDFB /* GradientIcon.swift */,
-				23392E5B29EB92C200F5BDFB /* MenuRow.swift */,
-				23240DF029EDFBD200451E45 /* PackageRow.swift */,
-				23240DFA29EE139600451E45 /* FAQRow.swift */,
+				2380554629F056ED00E17949 /* Other */,
+				2380554529F056E600E17949 /* Buttons */,
+				2380554429F056DD00E17949 /* Rows */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -121,6 +121,33 @@
 				23392E5829EB8CED00F5BDFB /* VisualEffectBlur.swift */,
 			);
 			path = Graphics;
+			sourceTree = "<group>";
+		};
+		2380554429F056DD00E17949 /* Rows */ = {
+			isa = PBXGroup;
+			children = (
+				23392E5B29EB92C200F5BDFB /* MenuRow.swift */,
+				23240DF029EDFBD200451E45 /* PackageRow.swift */,
+				23240DFA29EE139600451E45 /* FAQRow.swift */,
+			);
+			path = Rows;
+			sourceTree = "<group>";
+		};
+		2380554529F056E600E17949 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				2380554229F053F800E17949 /* PrimaryButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		2380554629F056ED00E17949 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				23392E5129EB8C5700F5BDFB /* TrackableScrollView.swift */,
+				23392E5D29EB931C00F5BDFB /* GradientIcon.swift */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 		23CAB22729EB2D70007D88DF = {
@@ -245,6 +272,7 @@
 				23240DEF29EDF99D00451E45 /* Package.swift in Sources */,
 				23240DF329EE090000451E45 /* FAQ.swift in Sources */,
 				23CAB23429EB2D70007D88DF /* SwiftUICombineAndDataApp.swift in Sources */,
+				2380554329F053F800E17949 /* PrimaryButton.swift in Sources */,
 				23392E5929EB8CED00F5BDFB /* AccountBackground.swift in Sources */,
 				23392E5C29EB92C200F5BDFB /* MenuRow.swift in Sources */,
 			);
