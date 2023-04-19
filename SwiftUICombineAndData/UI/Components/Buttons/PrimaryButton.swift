@@ -56,7 +56,7 @@ struct PrimaryButton: View {
 #if DEBUG
 struct PrimaryButton_Previews: PreviewProvider {
     static var previews: some View {
-        PrimaryButton(text: "")
+        PrimaryButton()
     }
 }
 #endif
