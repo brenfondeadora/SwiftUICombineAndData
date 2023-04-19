@@ -19,6 +19,7 @@
 		23392E5C29EB92C200F5BDFB /* MenuRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23392E5B29EB92C200F5BDFB /* MenuRow.swift */; };
 		23392E5E29EB931C00F5BDFB /* GradientIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23392E5D29EB931C00F5BDFB /* GradientIcon.swift */; };
 		2380554329F053F800E17949 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2380554229F053F800E17949 /* PrimaryButton.swift */; };
+		2380554829F057C900E17949 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2380554729F057C900E17949 /* Extensions.swift */; };
 		23CAB23429EB2D70007D88DF /* SwiftUICombineAndDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CAB23329EB2D70007D88DF /* SwiftUICombineAndDataApp.swift */; };
 		23CAB23629EB2D70007D88DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CAB23529EB2D70007D88DF /* ContentView.swift */; };
 		23CAB23829EB2D74007D88DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23CAB23729EB2D74007D88DF /* Assets.xcassets */; };
@@ -40,6 +41,7 @@
 		23392E5B29EB92C200F5BDFB /* MenuRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRow.swift; sourceTree = "<group>"; };
 		23392E5D29EB931C00F5BDFB /* GradientIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientIcon.swift; sourceTree = "<group>"; };
 		2380554229F053F800E17949 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		2380554729F057C900E17949 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		23CAB23029EB2D70007D88DF /* SwiftUICombineAndData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICombineAndData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23CAB23329EB2D70007D88DF /* SwiftUICombineAndDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICombineAndDataApp.swift; sourceTree = "<group>"; };
 		23CAB23529EB2D70007D88DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				23240DF829EE0E4B00451E45 /* ModelData.swift */,
+				2380554729F057C900E17949 /* Extensions.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				23392E5E29EB931C00F5BDFB /* GradientIcon.swift in Sources */,
 				23240DEF29EDF99D00451E45 /* Package.swift in Sources */,
 				23240DF329EE090000451E45 /* FAQ.swift in Sources */,
+				2380554829F057C900E17949 /* Extensions.swift in Sources */,
 				23CAB23429EB2D70007D88DF /* SwiftUICombineAndDataApp.swift in Sources */,
 				2380554329F053F800E17949 /* PrimaryButton.swift in Sources */,
 				23392E5929EB8CED00F5BDFB /* AccountBackground.swift in Sources */,
