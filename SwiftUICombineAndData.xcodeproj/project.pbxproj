@@ -23,6 +23,8 @@
 		2380554A29F05B4C00E17949 /* ProfileRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2380554929F05B4C00E17949 /* ProfileRow.swift */; };
 		2380554C29F0630E00E17949 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2380554B29F0630E00E17949 /* GoogleService-Info.plist */; };
 		2380554F29F0718600E17949 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 2380554E29F0718600E17949 /* FirebaseFirestore */; };
+		2380555129F0754400E17949 /* Certificate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2380555029F0754400E17949 /* Certificate.swift */; };
+		2380555429F0791A00E17949 /* CertificateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2380555329F0791A00E17949 /* CertificateViewModel.swift */; };
 		23CAB23429EB2D70007D88DF /* SwiftUICombineAndDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CAB23329EB2D70007D88DF /* SwiftUICombineAndDataApp.swift */; };
 		23CAB23629EB2D70007D88DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CAB23529EB2D70007D88DF /* ContentView.swift */; };
 		23CAB23829EB2D74007D88DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23CAB23729EB2D74007D88DF /* Assets.xcassets */; };
@@ -47,6 +49,8 @@
 		2380554729F057C900E17949 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		2380554929F05B4C00E17949 /* ProfileRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileRow.swift; sourceTree = "<group>"; };
 		2380554B29F0630E00E17949 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2380555029F0754400E17949 /* Certificate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Certificate.swift; sourceTree = "<group>"; };
+		2380555329F0791A00E17949 /* CertificateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificateViewModel.swift; sourceTree = "<group>"; };
 		23CAB23029EB2D70007D88DF /* SwiftUICombineAndData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICombineAndData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23CAB23329EB2D70007D88DF /* SwiftUICombineAndDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICombineAndDataApp.swift; sourceTree = "<group>"; };
 		23CAB23529EB2D70007D88DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -93,6 +97,7 @@
 			children = (
 				23240DEE29EDF99D00451E45 /* Package.swift */,
 				23240DF229EE090000451E45 /* FAQ.swift */,
+				2380555029F0754400E17949 /* Certificate.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -160,6 +165,14 @@
 			path = Other;
 			sourceTree = "<group>";
 		};
+		2380555229F078FE00E17949 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2380555329F0791A00E17949 /* CertificateViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		23CAB22729EB2D70007D88DF = {
 			isa = PBXGroup;
 			children = (
@@ -179,6 +192,7 @@
 		23CAB23229EB2D70007D88DF /* SwiftUICombineAndData */ = {
 			isa = PBXGroup;
 			children = (
+				2380555229F078FE00E17949 /* ViewModels */,
 				23240DF729EE0E2600451E45 /* Utils */,
 				23240DF429EE0BC100451E45 /* Resources */,
 				23240DED29EDF95B00451E45 /* Models */,
@@ -281,12 +295,14 @@
 				23392E5A29EB8CED00F5BDFB /* VisualEffectBlur.swift in Sources */,
 				23240DFB29EE139600451E45 /* FAQRow.swift in Sources */,
 				23392E5229EB8C5700F5BDFB /* TrackableScrollView.swift in Sources */,
+				2380555129F0754400E17949 /* Certificate.swift in Sources */,
 				23CAB23629EB2D70007D88DF /* ContentView.swift in Sources */,
 				23240DF929EE0E4B00451E45 /* ModelData.swift in Sources */,
 				23240DF129EDFBD200451E45 /* PackageRow.swift in Sources */,
 				23CEEE3129EB95780098F242 /* FAQView.swift in Sources */,
 				23CEEE3329EB958F0098F242 /* PackagesView.swift in Sources */,
 				23392E5E29EB931C00F5BDFB /* GradientIcon.swift in Sources */,
+				2380555429F0791A00E17949 /* CertificateViewModel.swift in Sources */,
 				2380554A29F05B4C00E17949 /* ProfileRow.swift in Sources */,
 				23240DEF29EDF99D00451E45 /* Package.swift in Sources */,
 				23240DF329EE090000451E45 /* FAQ.swift in Sources */,
