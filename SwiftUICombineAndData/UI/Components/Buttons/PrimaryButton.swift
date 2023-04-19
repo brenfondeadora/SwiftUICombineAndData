@@ -56,7 +56,11 @@ struct PrimaryButton: View {
 #if DEBUG
 struct PrimaryButton_Previews: PreviewProvider {
     static var previews: some View {
-        PrimaryButton()
+        Group {
+            PrimaryButton()
+            PrimaryButton()
+                .environment(\.colorScheme, .dark)
+        }
     }
 }
 #endif
