@@ -25,6 +25,8 @@
 		2380554F29F0718600E17949 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 2380554E29F0718600E17949 /* FirebaseFirestore */; };
 		2380555129F0754400E17949 /* Certificate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2380555029F0754400E17949 /* Certificate.swift */; };
 		2380555429F0791A00E17949 /* CertificateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2380555329F0791A00E17949 /* CertificateViewModel.swift */; };
+		2380555629F07E8F00E17949 /* CertificatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2380555529F07E8F00E17949 /* CertificatesView.swift */; };
+		2380555829F0842D00E17949 /* CertificateCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2380555729F0842D00E17949 /* CertificateCard.swift */; };
 		23CAB23429EB2D70007D88DF /* SwiftUICombineAndDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CAB23329EB2D70007D88DF /* SwiftUICombineAndDataApp.swift */; };
 		23CAB23629EB2D70007D88DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CAB23529EB2D70007D88DF /* ContentView.swift */; };
 		23CAB23829EB2D74007D88DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23CAB23729EB2D74007D88DF /* Assets.xcassets */; };
@@ -51,6 +53,8 @@
 		2380554B29F0630E00E17949 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2380555029F0754400E17949 /* Certificate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Certificate.swift; sourceTree = "<group>"; };
 		2380555329F0791A00E17949 /* CertificateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificateViewModel.swift; sourceTree = "<group>"; };
+		2380555529F07E8F00E17949 /* CertificatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificatesView.swift; sourceTree = "<group>"; };
+		2380555729F0842D00E17949 /* CertificateCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificateCard.swift; sourceTree = "<group>"; };
 		23CAB23029EB2D70007D88DF /* SwiftUICombineAndData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICombineAndData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23CAB23329EB2D70007D88DF /* SwiftUICombineAndDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICombineAndDataApp.swift; sourceTree = "<group>"; };
 		23CAB23529EB2D70007D88DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -78,6 +82,7 @@
 				23CEEE3229EB958F0098F242 /* PackagesView.swift */,
 				23CEEE3029EB95780098F242 /* FAQView.swift */,
 				23CAB23529EB2D70007D88DF /* ContentView.swift */,
+				2380555529F07E8F00E17949 /* CertificatesView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -85,6 +90,7 @@
 		23240DEC29EDF7C600451E45 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				2380555929F086AA00E17949 /* Cards */,
 				2380554629F056ED00E17949 /* Other */,
 				2380554529F056E600E17949 /* Buttons */,
 				2380554429F056DD00E17949 /* Rows */,
@@ -171,6 +177,14 @@
 				2380555329F0791A00E17949 /* CertificateViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2380555929F086AA00E17949 /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				2380555729F0842D00E17949 /* CertificateCard.swift */,
+			);
+			path = Cards;
 			sourceTree = "<group>";
 		};
 		23CAB22729EB2D70007D88DF = {
@@ -303,6 +317,7 @@
 				23CEEE3329EB958F0098F242 /* PackagesView.swift in Sources */,
 				23392E5E29EB931C00F5BDFB /* GradientIcon.swift in Sources */,
 				2380555429F0791A00E17949 /* CertificateViewModel.swift in Sources */,
+				2380555829F0842D00E17949 /* CertificateCard.swift in Sources */,
 				2380554A29F05B4C00E17949 /* ProfileRow.swift in Sources */,
 				23240DEF29EDF99D00451E45 /* Package.swift in Sources */,
 				23240DF329EE090000451E45 /* FAQ.swift in Sources */,
@@ -310,6 +325,7 @@
 				23CAB23429EB2D70007D88DF /* SwiftUICombineAndDataApp.swift in Sources */,
 				2380554329F053F800E17949 /* PrimaryButton.swift in Sources */,
 				23392E5929EB8CED00F5BDFB /* AccountBackground.swift in Sources */,
+				2380555629F07E8F00E17949 /* CertificatesView.swift in Sources */,
 				23392E5C29EB92C200F5BDFB /* MenuRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
