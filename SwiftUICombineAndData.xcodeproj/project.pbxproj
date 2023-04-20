@@ -34,6 +34,7 @@
 		23CEEE3129EB95780098F242 /* FAQView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CEEE3029EB95780098F242 /* FAQView.swift */; };
 		23CEEE3329EB958F0098F242 /* PackagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CEEE3229EB958F0098F242 /* PackagesView.swift */; };
 		23F661B229F1A98E004493BD /* NotificationRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F661B129F1A98E004493BD /* NotificationRow.swift */; };
+		23F661B429F1AD5A004493BD /* LiteModeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F661B329F1AD5A004493BD /* LiteModeRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		23CEEE3029EB95780098F242 /* FAQView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQView.swift; sourceTree = "<group>"; };
 		23CEEE3229EB958F0098F242 /* PackagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackagesView.swift; sourceTree = "<group>"; };
 		23F661B129F1A98E004493BD /* NotificationRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationRow.swift; sourceTree = "<group>"; };
+		23F661B329F1AD5A004493BD /* LiteModeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiteModeRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 				23240DFA29EE139600451E45 /* FAQRow.swift */,
 				2380554929F05B4C00E17949 /* ProfileRow.swift */,
 				23F661B129F1A98E004493BD /* NotificationRow.swift */,
+				23F661B329F1AD5A004493BD /* LiteModeRow.swift */,
 			);
 			path = Rows;
 			sourceTree = "<group>";
@@ -319,6 +322,7 @@
 				23240DF129EDFBD200451E45 /* PackageRow.swift in Sources */,
 				23CEEE3129EB95780098F242 /* FAQView.swift in Sources */,
 				23CEEE3329EB958F0098F242 /* PackagesView.swift in Sources */,
+				23F661B429F1AD5A004493BD /* LiteModeRow.swift in Sources */,
 				23392E5E29EB931C00F5BDFB /* GradientIcon.swift in Sources */,
 				2380555429F0791A00E17949 /* CertificateViewModel.swift in Sources */,
 				2380555829F0842D00E17949 /* CertificateCard.swift in Sources */,
