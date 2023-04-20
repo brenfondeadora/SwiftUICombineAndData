@@ -11,6 +11,7 @@ struct ContentView: View {
     
     @Environment(\.colorScheme) var colorScheme: ColorScheme
     @State private var contentOffset = CGFloat(0)
+    @State private var showCertificates: Bool = false
     
     var body: some View {
         NavigationView {
@@ -33,6 +34,9 @@ struct ContentView: View {
         }
         .navigationViewStyle(StackNavigationViewStyle())
         .accentColor(colorScheme == .dark ? .white : Color(#colorLiteral(red: 0.2196078449, green: 0.007843137719, blue: 0.8549019694, alpha: 1)))
+        .sheet(isPresented: $showCertificates, content: {
+                CertificatesView()
+        })
     }
     
     var divider: some View {
@@ -42,6 +46,9 @@ struct ContentView: View {
     var content: some View {
         VStack {
             ProfileRow()
+                .onTapGesture {
+                    showCertificates.toggle()
+                }
             
             VStack {
                 NavigationLink(destination: FAQView()) {
