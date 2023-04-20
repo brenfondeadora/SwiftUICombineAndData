@@ -33,6 +33,7 @@
 		23CAB23B29EB2D74007D88DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23CAB23A29EB2D74007D88DF /* Preview Assets.xcassets */; };
 		23CEEE3129EB95780098F242 /* FAQView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CEEE3029EB95780098F242 /* FAQView.swift */; };
 		23CEEE3329EB958F0098F242 /* PackagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CEEE3229EB958F0098F242 /* PackagesView.swift */; };
+		23F661B229F1A98E004493BD /* NotificationRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F661B129F1A98E004493BD /* NotificationRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		23CAB23A29EB2D74007D88DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		23CEEE3029EB95780098F242 /* FAQView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQView.swift; sourceTree = "<group>"; };
 		23CEEE3229EB958F0098F242 /* PackagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackagesView.swift; sourceTree = "<group>"; };
+		23F661B129F1A98E004493BD /* NotificationRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 				23240DF029EDFBD200451E45 /* PackageRow.swift */,
 				23240DFA29EE139600451E45 /* FAQRow.swift */,
 				2380554929F05B4C00E17949 /* ProfileRow.swift */,
+				23F661B129F1A98E004493BD /* NotificationRow.swift */,
 			);
 			path = Rows;
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				23392E5A29EB8CED00F5BDFB /* VisualEffectBlur.swift in Sources */,
+				23F661B229F1A98E004493BD /* NotificationRow.swift in Sources */,
 				23240DFB29EE139600451E45 /* FAQRow.swift in Sources */,
 				23392E5229EB8C5700F5BDFB /* TrackableScrollView.swift in Sources */,
 				2380555129F0754400E17949 /* Certificate.swift in Sources */,
