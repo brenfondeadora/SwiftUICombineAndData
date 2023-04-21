@@ -27,6 +27,7 @@
 		2380555429F0791A00E17949 /* CertificateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2380555329F0791A00E17949 /* CertificateViewModel.swift */; };
 		2380555629F07E8F00E17949 /* CertificatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2380555529F07E8F00E17949 /* CertificatesView.swift */; };
 		2380555829F0842D00E17949 /* CertificateCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2380555729F0842D00E17949 /* CertificateCard.swift */; };
+		23B5F90C29F20E1900568785 /* NotificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B5F90B29F20E1800568785 /* NotificationViewModel.swift */; };
 		23CAB23429EB2D70007D88DF /* SwiftUICombineAndDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CAB23329EB2D70007D88DF /* SwiftUICombineAndDataApp.swift */; };
 		23CAB23629EB2D70007D88DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CAB23529EB2D70007D88DF /* ContentView.swift */; };
 		23CAB23829EB2D74007D88DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23CAB23729EB2D74007D88DF /* Assets.xcassets */; };
@@ -60,6 +61,7 @@
 		2380555529F07E8F00E17949 /* CertificatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificatesView.swift; sourceTree = "<group>"; };
 		2380555729F0842D00E17949 /* CertificateCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificateCard.swift; sourceTree = "<group>"; };
 		23B5F90A29F1EBD100568785 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		23B5F90B29F20E1800568785 /* NotificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewModel.swift; sourceTree = "<group>"; };
 		23CAB23029EB2D70007D88DF /* SwiftUICombineAndData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUICombineAndData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23CAB23329EB2D70007D88DF /* SwiftUICombineAndDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICombineAndDataApp.swift; sourceTree = "<group>"; };
 		23CAB23529EB2D70007D88DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -187,6 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				2380555329F0791A00E17949 /* CertificateViewModel.swift */,
+				23B5F90B29F20E1800568785 /* NotificationViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -347,6 +350,7 @@
 				2380554A29F05B4C00E17949 /* ProfileRow.swift in Sources */,
 				23240DEF29EDF99D00451E45 /* Package.swift in Sources */,
 				23240DF329EE090000451E45 /* FAQ.swift in Sources */,
+				23B5F90C29F20E1900568785 /* NotificationViewModel.swift in Sources */,
 				2380554829F057C900E17949 /* Extensions.swift in Sources */,
 				23CAB23429EB2D70007D88DF /* SwiftUICombineAndDataApp.swift in Sources */,
 				2380554329F053F800E17949 /* PrimaryButton.swift in Sources */,
