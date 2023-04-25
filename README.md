@@ -4,7 +4,8 @@ Based on the course [SwiftUI Combine and Data](https://designcode.io/swiftui-com
 
 <p align="center">
 <a href="#">
-
+<img src="images/combine.gif" align="center" height="500"> 
+<br><br>
 </a>  
 <br><br>
      An app that allow us store local data, data from a JSON file, in UserDefaults and in an external database, Firestore 
@@ -23,6 +24,11 @@ Based on the course [SwiftUI Combine and Data](https://designcode.io/swiftui-com
 </p>
 
 ## 🤖 Requirements
+
+- Create a firebase account
+- Create a firebase project
+- Replace GoogleService-Info file with yours
+- Add to capabilities (push notifications, background fetch, remote notifications)
 
 ## 👤 Author
 
