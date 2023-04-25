@@ -8,10 +8,10 @@
 import SwiftUI
 
 struct LiteModeRow: View {
-    @State private var subscribed: Bool = true
+    @AppStorage("isLiteMode") var isLiteMode: Bool = false
     
     var body: some View {
-        Toggle(isOn: $subscribed, label: {
+        Toggle(isOn: $isLiteMode, label: {
             HStack(spacing: 12) {
                 GradientIcon(icon: "speedometer")
                 
