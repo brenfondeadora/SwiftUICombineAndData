@@ -34,6 +34,7 @@
 		23CAB23B29EB2D74007D88DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23CAB23A29EB2D74007D88DF /* Preview Assets.xcassets */; };
 		23CEEE3129EB95780098F242 /* FAQView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CEEE3029EB95780098F242 /* FAQView.swift */; };
 		23CEEE3329EB958F0098F242 /* PackagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CEEE3229EB958F0098F242 /* PackagesView.swift */; };
+		23E651E829F89C27000D1A08 /* NetworkReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E651E729F89C27000D1A08 /* NetworkReachability.swift */; };
 		23F661B229F1A98E004493BD /* NotificationRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F661B129F1A98E004493BD /* NotificationRow.swift */; };
 		23F661B429F1AD5A004493BD /* LiteModeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F661B329F1AD5A004493BD /* LiteModeRow.swift */; };
 		23F661B729F1B484004493BD /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 23F661B629F1B484004493BD /* FirebaseAnalytics */; };
@@ -69,6 +70,7 @@
 		23CAB23A29EB2D74007D88DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		23CEEE3029EB95780098F242 /* FAQView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQView.swift; sourceTree = "<group>"; };
 		23CEEE3229EB958F0098F242 /* PackagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackagesView.swift; sourceTree = "<group>"; };
+		23E651E729F89C27000D1A08 /* NetworkReachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkReachability.swift; sourceTree = "<group>"; };
 		23F661B129F1A98E004493BD /* NotificationRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationRow.swift; sourceTree = "<group>"; };
 		23F661B329F1AD5A004493BD /* LiteModeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiteModeRow.swift; sourceTree = "<group>"; };
 		23F661BA29F1B7F8004493BD /* SwiftUICombineAndData.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUICombineAndData.entitlements; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 			children = (
 				23240DF829EE0E4B00451E45 /* ModelData.swift */,
 				2380554729F057C900E17949 /* Extensions.swift */,
+				23E651E729F89C27000D1A08 /* NetworkReachability.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -347,6 +350,7 @@
 				23392E5E29EB931C00F5BDFB /* GradientIcon.swift in Sources */,
 				2380555429F0791A00E17949 /* CertificateViewModel.swift in Sources */,
 				2380555829F0842D00E17949 /* CertificateCard.swift in Sources */,
+				23E651E829F89C27000D1A08 /* NetworkReachability.swift in Sources */,
 				2380554A29F05B4C00E17949 /* ProfileRow.swift in Sources */,
 				23240DEF29EDF99D00451E45 /* Package.swift in Sources */,
 				23240DF329EE090000451E45 /* FAQ.swift in Sources */,
