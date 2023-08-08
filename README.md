@@ -4,7 +4,7 @@ Based on the course [SwiftUI Combine and Data](https://designcode.io/swiftui-com
 
 <p align="center">
 <a href="#">
-<img src="images/combine.gif" height="500"> 
+<img src="images/combine.gif" height="10%"> 
 </a>  
 <br><br>
      An app that allow us store local data, data from a JSON file, in UserDefaults and in an external database, Firestore 
