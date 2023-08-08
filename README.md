@@ -34,4 +34,4 @@ Based on the course [SwiftUI Combine and Data](https://designcode.io/swiftui-com
 **Brenda Saavedra**
 
 - WebPage: [brendasaavedra.com](http://brendasaavedra.com)
-- Github: [@brenfondeadora](https://github.com/brenfondeadora/)
+- Github: [@brsaca](https://github.com/brsaca/)
